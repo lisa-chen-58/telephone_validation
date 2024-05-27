@@ -35,11 +35,12 @@ a {
 }
 
 #inner-background {
-  height: 80%;
-  border: solid red;
+  height: 350px;
+  max-height: 350px;
   background: #DFDFE2;
   color: black;
   padding: 0 10px;
+  overflow-y: auto;
 }
 
 #results-div, #results-invalid-div, #results-valid-div {
