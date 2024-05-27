@@ -1,0 +1,71 @@
+#background {
+  padding: 30px 60px;
+  height: 100vh;
+  color: white;
+  background-color: #3B3B4F;
+}
+
+#container {
+  font-family: "Red Hat Display", sans-serif;
+  text-align: center;
+  width: 260px;
+  margin: auto;
+}
+
+a {
+  color: rgb(212, 212, 244);
+  text-decoration: none;
+}
+
+#phone {
+  background: black;
+  border-radius: 10px;
+  width: 100%;
+  max-height: 430px;
+  height: 430px;
+  padding: 5px 10px;
+}
+
+#circle {
+  width: 7px;
+  height: 7px;
+  margin: 10px auto;
+  border-radius: 20px;
+  background-color: rgb(235, 233, 233); 
+}
+
+#inner-background {
+  height: 80%;
+  border: solid red;
+  background: #DFDFE2;
+  color: black;
+  padding: 0 10px;
+}
+
+#results-div, #results-invalid-div, #results-valid-div {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#results-invalid-div {
+  color: #48471B;
+}
+
+#results-valid-div {
+  color: #00471B;
+}
+
+#btn-group {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin: 7px;
+}
+
+.button {
+  box-sizing: border-box;
+  width: 40%;
+  padding: 5px 0;
+  background-image: linear-gradient(white, gray);
+  border: inset 4px #DFDFE2;
+}
